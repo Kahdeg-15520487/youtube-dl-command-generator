@@ -83,3 +83,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+*.bat
+temp.txt
+*.mp4
+youtube-dl_command_generator.exe
