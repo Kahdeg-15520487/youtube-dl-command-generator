@@ -25,7 +25,7 @@ Global Const $MAIN = " youtube-dl "
 Global Const $EXTRACT_AUDIO = " --extract-audio "
 Global Const $AUDIO_FORMAT = " --audio-format "
 Global Const $OUTPUT = " --output "
-Global Const $OUTPUT_TEMPLATE = "%(title)s.%(ext)s"
+Global Const $OUTPUT_TEMPLATE = "%%(title)s.%%(ext)s"
 Global Const $YES_PLAYLIST = " --yes-playlist "
 Global Const $NO_PLAYLIST = " --no-playlist "
 Global Const $PLAYLIST_START = " --playlist-start "
@@ -173,7 +173,7 @@ Func Generate()
 	FileClose($file)
 
 	If $isExec Then
-		Run(@ComSpec & " /C " & $command)
+		Run(@ComSpec & " /K " & $command)
 	EndIf
 EndFunc
 
