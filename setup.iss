@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "youtube-dl-wrapper"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "kahdeg"
 #define MyAppURL "https://github.com/Kahdeg-15520487/youtube-dl-command-generator"
 #define MyAppExeName "youtube-dl_command_generator.exe"
